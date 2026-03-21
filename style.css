@@ -116,3 +116,69 @@ th {
     background-color: yellow;
     border-radius: 4px;
 }
+
+.box-gray {
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.box-orange {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+.box-darkorange {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(236, 97, 4);
+    border-radius: 4px;
+}
+
+.box-black {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.box-pink {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(247, 0, 136);
+    border-radius: 4px;
+}
+
+.box-purple {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(157, 2, 230);
+    border-radius: 4px;
+}
+
+.box-green {
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    border-radius: 4px;
+}
+
+.box-red {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.list-kit {
+    list-style-type: none;
+    padding: 37px 30px;
+    background-color: #f7f0db;
+    border-radius: 8px;
+    border: 2px dotted #ffbc02;
+    line-height: 2.2;
+}
+
