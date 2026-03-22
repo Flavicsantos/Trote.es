@@ -176,7 +176,7 @@ th {
 .list-kit {
     list-style-type: none;
     padding: 37px 30px;
-    background-color: #f7f0db;
+    background-color: #fdf7e6;
     border-radius: 8px;
     border: 2px dotted #ffbc02;
     line-height: 2.2;
@@ -192,4 +192,12 @@ th {
     list-style: none;
     padding: 0;
     color: #a37802;
+}
+
+.card-yellow {
+    background-color: #fdfcee;
+    border-left: 5px solid #c7b405;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.6;
 }
