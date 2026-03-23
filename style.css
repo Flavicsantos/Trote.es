@@ -109,6 +109,9 @@ th, td {
 th {
     background-color: #1c3a70; font-weight: bold; color: #d2dff7;
 }
+.th :hover {
+    background-color: #f9f9f9;
+}
 
 .box-yellow {
     width: 25px;
@@ -134,7 +137,7 @@ th {
 .box-darkorange {
     width: 25px;
     height: 25px;
-    background-color: rgb(236, 97, 4);
+    background-color: rgb(223, 52, 1);
     border-radius: 4px;
 }
 
