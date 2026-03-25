@@ -204,3 +204,18 @@ th {
     border-radius: 8px;
     line-height: 1.6;
 }
+
+footer {
+    background-color: #132d5c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    font-size: 0.85rem;
+    border-top: 4px solid #ffd700;
+}
+
+footer p {
+    margin: 8px 0;
+    opacity: 0.9;
+}
