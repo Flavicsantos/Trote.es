@@ -219,3 +219,51 @@ footer p {
     margin: 8px 0;
     opacity: 0.9;
 }
+
+.evento {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.evento::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #e20202;
+    border-radius: 50%;
+    position: absolute;
+    left: -35px;
+    top: 5px; 
+}
+
+.timeline {
+    border-left: 2px solid #132d5c75;
+    padding-left: 28px;
+    margin-left: 28px;
+}
+
+.etapas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #132038;
+    line-height: 2.0rem;
+}
+
+.etapas td {
+    vertical-align: top;
+}
+
+.med-hm {
+    list-style: none;
+    padding: 0;
+}
+.med-hm li {
+    background: #dceaff;
+    color: #132038;
+    margin: 8px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #143e6d;
+}
+
