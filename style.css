@@ -197,6 +197,18 @@ th {
     color: #a37802;
 }
 
+.destaque li {
+    display: flex;
+    align-items: center; /* alinha verticalmente */
+    gap: 8px; /* espaço entre emoji e texto */
+    margin-bottom: 8px;
+}
+
+.destaque span {
+    width: 20px; /* deixa todos os emojis alinhados */
+    text-align: center;
+}
+
 .card-yellow {
     background-color: #fdfcee;
     border-left: 5px solid #c7b405;
@@ -254,11 +266,24 @@ footer p {
     vertical-align: top;
 }
 
-.med-hm {
+.etapas li {
+    display: flex;
+    align-items: center; /* alinha verticalmente */
+    gap: 8px; /* espaço entre emoji e texto */
+    margin-bottom: 8px;
+}
+
+.etapas span {
+    width: 20px;
+    text-align: center;
+}
+
+.medalha {
     list-style: none;
     padding: 0;
 }
-.med-hm li {
+
+.medalha li {
     background: #dceaff;
     color: #132038;
     margin: 8px 0;
