@@ -22,11 +22,35 @@
         </div>
     </nav>
     <main class="principal">
-      
+        <section>
+            <h3> 🧮 Simulador de Pontos </h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label> Arroz (5kg) - 10 pts </label> <!-- rótulo da caixa de entrada -->
+                    <input type="number" id="qtdeArroz" min="0"> <!-- caixa de entrada -->
+                </div>
+                <div class="form-group">
+                    <label> Feijão (2kg) - 8 pts </label> 
+                    <input type="number" id="qtdeFeijao" min="0"> 
+                </div>
+            </div>
+            <button onclick="calcular()"> Calcular Total da Equipe </button>
+            <div id="resultado" class="resultado-box">
+                Puntuação total: 0 pontos
+            </div>
+        </section>
     </main>
     <footer>
         <p> Coordenação Trote Solidário 2026: trotesolidario@facef.br </p>
         <p> Uni-FACEF - Centro Universitário Municipal de Franca </p>
     </footer>
+    <script>
+        function calcular() {
+            let qtdeArroz = Number(document.getElementById("qtdeArroz").value)
+            let qtdeFeijao = Number(document.getElementById("qtdeFeijao").value)
+            let pontos = (qtdeArroz * 10) + (qtdeFeijao * 8)
+            document.getElementById("resultado").innerText = "Pontuação total: " + pontos
+        }
+    </script>
 </body>    
 </html>
